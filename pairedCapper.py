@@ -114,9 +114,8 @@ def main():
         """
         It should be the minimum of the
         (i) uncapped mapq (r.uncapped_map_q),
-        (ii) fragment cluster cap (r.xian_cap),
-        (iii) score group mapq divided by 2 (r.score_group_map_q), and
-        (iv) mapq extend cap (r.vg_computed_cap)
+        (ii) score group mapq divided by 2 (r.score_group_map_q), and
+        (iii) mapq extend cap (r.vg_computed_cap)
         If a value is 0, -0, inf, or -inf then it is ignored
         :param r:
         :return:
